@@ -1,0 +1,10 @@
+[project]
+name = "blk-hacking-ind-divyanshu-sharma"
+version = "0.1.0"
+dependencies = [
+    "fastapi",
+    "uvicorn"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
