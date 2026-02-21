@@ -55,5 +55,6 @@ pip install -r requirements.txt
 
 
 ## Using Docker
+```bash
 docker build -t blk-hacking-ind-divyanshu-sharma .
 docker run -d -p 5477:5477 blk-hacking-ind-divyanshu-sharma
