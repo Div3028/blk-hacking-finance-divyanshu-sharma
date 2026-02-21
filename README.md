@@ -51,4 +51,9 @@ pip install -r requirements.txt
 ### Start the API server
 
 ```bashuvicorn main:app --reload
-``` 
+```
+
+
+## Using Docker
+docker build -t blk-hacking-ind-divyanshu-sharma .
+docker run -d -p 5477:5477 blk-hacking-ind-divyanshu-sharma
